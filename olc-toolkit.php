@@ -3,7 +3,7 @@
  * Plugin Name:       OLC Toolkit
  * Plugin URI:        https://github.com/olc-projects/olc-toolkit
  * Description:       A toolkit plugin for OLC development
- * Version:           1.1.0
+ * Version:           1.1.1
  * Requires at least: 5.8
  * Requires PHP:      7.4
  * Author:            Our Little Company
@@ -16,7 +16,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // No direct access.
 }
 
-define( 'OLC_TOOLKIT_VERSION', '1.1.0' );
+define( 'OLC_TOOLKIT_VERSION', '1.1.1' );
 define( 'OLC_TOOLKIT_FILE', __FILE__ );
 define( 'OLC_TOOLKIT_DIR', plugin_dir_path( __FILE__ ) );
 

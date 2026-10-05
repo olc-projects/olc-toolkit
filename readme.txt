@@ -3,12 +3,15 @@ Contributors: ourlittlecompany
 Requires at least: 5.8
 Tested up to: 6.8
 Requires PHP: 7.4
-Stable tag: 1.1.0
+Stable tag: 1.1.1
 License: GPLv2 or later
 
 A toolkit plugin for OLC development.
 
 == Changelog ==
+
+= 1.1.1 =
+* Sites can now follow a different update branch (for example a test site on staging) by defining OLC_TOOLKIT_UPDATE_BRANCH in wp-config.php. Sites without it keep updating from master.
 
 = 1.1.0 =
 * New add-on system: the OLC Toolkit page now lists add-ons that can be enabled or disabled per site.
