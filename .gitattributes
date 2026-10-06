@@ -1,0 +1,15 @@
+# Store and check out all text files with LF line endings on every computer.
+* text=auto eol=lf
+
+# Binary files: never convert.
+*.mo   binary
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.webp binary
+*.ico  binary
+*.zip  binary
+
+# Keep this file out of the plugin zip that sites download from GitHub.
+.gitattributes export-ignore
